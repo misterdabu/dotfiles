@@ -28,16 +28,16 @@ Write-Host  "Intstalling minimal setup"
 if ((Read-Host "Install dev tools: (y/N)").ToLower() -eq 'y') {
     & choco install `
         autohotkey.install `
-        azure-cli `
+        #azure-cli `
         docker-desktop `
-        eartrumpet `
+        #eartrumpet `
         gh `
         insomnia-rest-api-client `
-        linqpad `
+        #linqpad `
         nodejs-lts `
-        nswagstudio `
+        #nswagstudio `
         postman `
-        sudo `
+        #sudo `
         vscode `
         -y
 }
@@ -61,10 +61,10 @@ if ((Read-Host "Install gaming apps: (y/N)").ToLower() -eq 'y') {
 
 if ((Read-Host "Install other apps: (y/N)").ToLower() -eq 'y') {
     & choco install `
-        logitech-camera-settings `
-        logitech-options `
-        microsoft-teams `
-        paint.net `
+        #logitech-camera-settings `
+        #logitech-options `
+        #microsoft-teams `
+        #paint.net `
         obs-studio `
         obs-virtualcam `
         -y
